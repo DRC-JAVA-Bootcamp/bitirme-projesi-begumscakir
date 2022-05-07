@@ -8,7 +8,7 @@ import java.util.List;
 
 class FileOperations {
 
-    //Writes a therapist to a CSV file.
+    //Write a therapist to a CSV file.
     public static void writeOneTherapist(String filepath, Therapist therapists) {
         try {
             FileWriter fw = new FileWriter(filepath, true);
@@ -32,7 +32,7 @@ class FileOperations {
             System.out.println(e);
         }
     }
-    //Reads all therapists from the CSV file and add them to a temporary list.
+    //Read all therapists from the CSV file and add them to a temporary list.
     public static List<Therapist> readTherapists(String filepath){
         List<Therapist> therapists = new ArrayList<>();
         String nameSurname = "", idNumber = "",therapyLanguage = "",therapyLanguage2 = "",phoneNo = "";
