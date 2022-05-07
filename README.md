@@ -22,8 +22,7 @@ how much they charge per session. ID numbers are not shared with visitors.
 
 # Future Project Ideas:
 * Visitors may book therapy sessions based on suitable dates and hours.
-* Visitors and therapists may interact within the application.
-PS- Ethical rules should be considered. 
+* Visitors and therapists may interact within the application. Ethical rules should be considered. 
 * Other therapy approaches and subfields may be added.
 
 # Reference:
