@@ -1,4 +1,4 @@
-# bitirme-projesi-begumscakir
+# Bitirme Projesi - Begüm Su Çakır
 bitirme-projesi-begumscakir created by GitHub Classroom
 
 
