@@ -70,5 +70,6 @@ class Visitor {  // Visitor is the one who use the app, is not a client but a po
               ", expectationFromTherapy=" + expectationFromTherapy +
               ", maxCost=" + maxCost +
               '}';
+      
    }
 }
