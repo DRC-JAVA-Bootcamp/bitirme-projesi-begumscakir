@@ -1,4 +1,4 @@
-# Bitirme Projesi - Begüm Su Çakır
+# Therapist Finder
 bitirme-projesi-begumscakir created by GitHub Classroom
 
 
