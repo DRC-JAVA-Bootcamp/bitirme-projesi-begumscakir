@@ -2,18 +2,18 @@
 Therapist Finder aims to be used by therapists who wants to register into the system in order to be found by the most suitable visitors (potential clients),
 and by visitors who wants to find the most suitable therapists.
 
-# Therapists
+# Therapists:
 * Therapists register into the system using their information; their name, ID number, subfield, therapeutic approach, year in the field, contact number and
 how much they charge per session. ID numbers are not shared with visitors.
 * Only psychologists who completed their Master's degree in Clinical Psychology can use the system as it is a must to be a therapist.
 * Therapists' information are saved into a csv file.
 
-# Visitors
+# Visitors:
 * Visitors match with and see the most suitable therapists using the information they give.
 * Visitors are anonymous and they're not saved into system.
 * They need to be 18 or older to use the app.
 
-# Matching Process
+# Matching Process:
 * Visitors can see all the suitable therapists.
 * Visitor's language preference; matches with the languages that therapists use in therapy.
 * Support type that a visitor want (for ownself, for their child etc.); matches with therapists' subfield (Adult Psychology, Children and Adolescence Psy. etc.).
