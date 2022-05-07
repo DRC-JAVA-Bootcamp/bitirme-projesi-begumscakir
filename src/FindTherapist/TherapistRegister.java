@@ -6,6 +6,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class TherapistRegister {
+    
     private List<Therapist> therapistList ;
     private static String filepathTherapist = "src/FindTherapist/data/Therapists.csv";
 
@@ -48,23 +49,24 @@ public class TherapistRegister {
             inputTher.nextLine(); //nameSurname
             String nameTher = inputTher.nextLine();
             System.out.println();
-            ///
+            //
             System.out.println("Please enter your ID number: ");
             String idTher = inputTher.nextLine(); //idNumber
             System.out.println();
-            ///
+            //
             System.out.println("Please enter your phone number: ");
             String phoneTher = inputTher.nextLine(); //phoneNo
             System.out.println();
-            ///
+            //
+            
             // if you want to add more specializations or qualities related to them, adjust
             System.out.println("Please choose your specialization.");
             System.out.println("Enter 1 for 'Adult Psychology', 2 for 'Children and Adolescent Psychology, " +
                     "and 3 for 'Couple Psychology'.");
             int subfieldTher = inputTher.nextInt(); //subfield
             System.out.println();
-            ///
-            int approachTher; /**1)define the variable for each stack 2)define outside ?*/
+            //
+            int approachTher; 
             if(subfieldTher == 1){
                 System.out.println("Please enter your main therapeutic approach. Press 1 for" +
                         "'Cognitive-Behavioural Therapy', "+" 2 for 'Psychodynamic Therapy', 3 for 'Existential Therapy'");
@@ -73,22 +75,22 @@ public class TherapistRegister {
                 System.out.println();
             }
             else approachTher = 0;
-            ///
+            //
             System.out.println("Please enter your years of professional experience in the field using numbers:");
             int yearTher = inputTher.nextInt(); //yearInTheField
             System.out.println();
-            ///
+            //
             System.out.println("What is the primary language you use in therapy?");
             System.out.println("Please write without using abbreviations.");
             inputTher.nextLine();
             String languageTher = inputTher.nextLine(); //therapyLanguage
-            ///
+            //
             System.out.println(
                     "If you also use another language in therapy please write it without abbreviations:");
             System.out.println("If not pass.");
             String language2Ther = inputTher.nextLine(); //therapyLanguage2
             System.out.println();
-            ///
+            //
             System.out.println("How much TL do you charge a client per session?");
             double costTher = inputTher.nextDouble(); //costTherapy
             System.out.println();
@@ -104,18 +106,19 @@ public class TherapistRegister {
         }
     }
     private void chooseTherapistAsVisitor(){
+        
         // Visitor
         try (Scanner inputVisit = new Scanner(System.in,StandardCharsets.UTF_8)) {
-            ///
+            //
             System.out.println();
             System.out.println("Please enter a nickname:");
             String nameVisit = inputVisit.nextLine(); //name
             System.out.println();
-            ///
+            //
             System.out.println("Please enter your age:");
             int ageVisit = inputVisit.nextInt(); //age
             if (ageVisit >= 18) {
-                ///
+                //
                 System.out.println();
                 System.out.println("Which language would you like to speak during therapy?:");
                 System.out.println("Please write without using abbreviations.");
@@ -123,7 +126,7 @@ public class TherapistRegister {
                 String languageVisit = inputVisit.nextLine(); //languagePreference
                 System.out.println(languageVisit);
                 System.out.println();
-                ///
+                //
                 System.out.println("What kind of support would you like to get?: ");
                 System.out.println("Please enter" +
                         " 1 for 'Individual (for myself)', 2 for 'Couples (for myself and my partner)', 3 for "
@@ -131,7 +134,7 @@ public class TherapistRegister {
                         "'For my child'.");
                 int supportPref = inputVisit.nextInt(); //therapyPreference
                 System.out.println();
-                ///
+                //
                 int expectVisit;
                 if(supportPref == 1){
                     System.out.println("What is your expectation from therapy?");
@@ -142,7 +145,7 @@ public class TherapistRegister {
                     System.out.println();
                 }
                 else expectVisit = 0;
-                ///
+                //
                 System.out.println("Please enter maximum cost you are willing to pay per session in TL:");
                 double costVisit = inputVisit.nextDouble(); //maxCost
 
