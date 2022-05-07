@@ -1,6 +1,6 @@
 package FindTherapist;
 
-class Visitor {  /** Visitor is one who use the app, is not a client but a potential client. */
+class Visitor {  // Visitor is the one who use the app, is not a client but a potential client.
 
    private String name;
    private int age;
