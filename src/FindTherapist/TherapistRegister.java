@@ -54,7 +54,7 @@ public class TherapistRegister {
             String idTher = inputTher.nextLine(); //idNumber
             System.out.println();
             //
-            System.out.println("Please enter your phone number: ");
+            System.out.println("Please enter your phone number that you want to share with visitors: ");
             String phoneTher = inputTher.nextLine(); //phoneNo
             System.out.println();
             //
