@@ -6,7 +6,7 @@ and by visitors who wants to find the most suitable therapists.
 * Therapists register into the system using their information; their name, ID number, subfield, therapeutic approach, year in the field, contact number and
 how much they charge per session. ID numbers are not shared with visitors.
 * Only psychologists who completed their Master's degree in Clinical Psychology can use the system as it is a must to be a therapist.
-* Therapists' information are saved into and read from a csv file.
+* Therapists' information are saved into a csv file.
 
 # Visitors
 * Visitors match with and see the most suitable therapists using the information they give.
