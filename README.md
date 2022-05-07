@@ -15,9 +15,9 @@ how much they charge per session. ID numbers are not shared with visitors.
 
 # Matching Process
 * Visitors can see all the suitable therapists.
-* A visitor's language preference, matches with the languages therapists use in therapy.
-* Support that a visitor want (for themselves, for their child etc.), matches with therapists' subfields (Adult Psychology, Children and Adolescence Psy. etc.).
-* Visitor's expectation from therapy, matches with therapists' approach.
+* Visitor's language preference; matches with the languages that therapists use in therapy.
+* Support that a visitor want (for ownself, for their child etc.); matches with therapists' subfields (Adult Psychology, Children and Adolescence Psy. etc.).
+* Visitor's expectation from therapy; matches with therapists' approach.
 * Max cost a visitor is willing to pay per session is considered.
 
 # Future Project Ideas:
