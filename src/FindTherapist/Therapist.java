@@ -1,6 +1,7 @@
 package FindTherapist;
 
 class Therapist {
+    
     private String nameSurname;
     private String idNumber;
     private int subfield;
@@ -96,6 +97,6 @@ class Therapist {
                 ", costTherapy=" + costTherapy +
                 ", phoneNo='" + phoneNo + '\'' +
                 '}';
+        
     }
-
 }
