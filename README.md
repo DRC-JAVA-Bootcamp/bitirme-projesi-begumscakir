@@ -2,7 +2,7 @@
 Therapist Finder aims to be used by therapists who wants to register into the system in order to be found by the most suitable visitors (potential clients),
 and by visitors who wants to find the most suitable therapists.
 
-# Therapists:
+# Therapists:#
 * Therapists register into the system using their information; their name, ID number, subfield, therapeutic approach, year in the field, contact number and
 how much they charge per session. ID numbers are not shared with visitors.
 * Only psychologists who completed their Master's degree in Clinical Psychology can use the system as it is a must to be a therapist.
