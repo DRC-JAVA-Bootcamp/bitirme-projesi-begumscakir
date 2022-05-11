@@ -1,3 +1,5 @@
+Note: There is one more brach in the project.
+
 # Therapist Finder
 Therapist Finder aims to be used by therapists who wants to register into the system in order to be found by the most suitable visitors (potential clients),
 and by visitors who wants to find the most suitable therapists.
@@ -27,5 +29,3 @@ how much they charge per session. ID numbers are not shared with visitors.
 
 # Reference:
 Hiwell - https://www.hiwellapp.com/?gclid=Cj0KCQjwsdiTBhD5ARIsAIpW8CIKT6FsQ5cbXBw_gFqTM6QyjfKwdxIExK_nR9HzxEl9Rbb77Rz1YFUaAu2xEALw_wcB
-
-Note: There is one more brach in the project.
