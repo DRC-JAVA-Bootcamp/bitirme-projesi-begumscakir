@@ -1,4 +1,4 @@
-Note: There is one more brach in the project.
+Note: There is one more branch in the project.
 
 # Therapist Finder
 Therapist Finder aims to be used by therapists who wants to register into the system in order to be found by the most suitable visitors (potential clients),
