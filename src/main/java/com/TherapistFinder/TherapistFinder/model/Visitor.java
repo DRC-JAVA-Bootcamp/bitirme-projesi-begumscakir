@@ -26,4 +26,13 @@ public class Visitor {
     private Integer therapyPreference;
     private Integer expectationFromTherapy;
     private Double maxCost;
+
+    public Visitor(String name, Integer age, String languagePreference, Integer therapyPreference, Integer expectationFromTherapy, Double maxCost) {
+        this.name = name;
+        this.age = age;
+        this.languagePreference = languagePreference;
+        this.therapyPreference = therapyPreference;
+        this.expectationFromTherapy = expectationFromTherapy;
+        this.maxCost = maxCost;
+    }
 }
